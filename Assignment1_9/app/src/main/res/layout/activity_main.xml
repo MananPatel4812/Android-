@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/red"
+        android:text="RED" />
+
+    <Button
+        android:id="@+id/orangebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/orange"
+        android:text="Orange" />
+
+    <Button
+        android:id="@+id/btnyellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/yellow"
+        android:text="Yellow" />
+
+    <Button
+        android:id="@+id/btngreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/green"
+        android:text="Green" />
+
+    <Button
+        android:id="@+id/btnblue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/blue"
+        android:text="Blue" />
+
+    <Button
+        android:id="@+id/btnindigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/indigo"
+        android:text="Indigo" />
+
+    <Button
+        android:id="@+id/btnviolet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/violet"
+        android:text="Violet" />
+</LinearLayout>
